@@ -1,9 +1,6 @@
-print('hello python')
-print('test 123')
+import datetime
 
-a = 3
-b = 2
+curDay = datetime.date.today().day
+curMonth = datetime.date.today().month
 
-c = a + b
-
-print(c)
+print(str(curMonth) + 'm' + str(curDay) + 'd')
