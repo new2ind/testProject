@@ -12,3 +12,5 @@ if right_this_minute in odds:
     print("This munite seems a litte odds.")
 else:
     print("Not an odd minutes.")
+
+print("end!")
